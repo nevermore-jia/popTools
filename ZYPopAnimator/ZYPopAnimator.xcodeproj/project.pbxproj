@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF71D131202BF5E600BFA9E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71D130202BF5E600BFA9E9 /* AppDelegate.swift */; };
+		AF71D133202BF5E600BFA9E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71D132202BF5E600BFA9E9 /* ViewController.swift */; };
+		AF71D136202BF5E600BFA9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF71D134202BF5E600BFA9E9 /* Main.storyboard */; };
+		AF71D138202BF5E600BFA9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF71D137202BF5E600BFA9E9 /* Assets.xcassets */; };
+		AF71D13B202BF5E600BFA9E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF71D139202BF5E600BFA9E9 /* LaunchScreen.storyboard */; };
+		AF71D143202BF71100BFA9E9 /* PopViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71D142202BF71100BFA9E9 /* PopViewAnimator.swift */; };
+		AF71D145202BF84600BFA9E9 /* PopPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71D144202BF84600BFA9E9 /* PopPresentationController.swift */; };
+		AF71D148202BFA2500BFA9E9 /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71D146202BFA2500BFA9E9 /* PickerController.swift */; };
+		AF71D149202BFA2500BFA9E9 /* PickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF71D147202BFA2500BFA9E9 /* PickerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF71D12D202BF5E600BFA9E9 /* ZYPopAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPopAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF71D130202BF5E600BFA9E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF71D132202BF5E600BFA9E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF71D135202BF5E600BFA9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF71D137202BF5E600BFA9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF71D13A202BF5E600BFA9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF71D13C202BF5E600BFA9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF71D142202BF71100BFA9E9 /* PopViewAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewAnimator.swift; sourceTree = "<group>"; };
+		AF71D144202BF84600BFA9E9 /* PopPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopPresentationController.swift; sourceTree = "<group>"; };
+		AF71D146202BFA2500BFA9E9 /* PickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
+		AF71D147202BFA2500BFA9E9 /* PickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF71D12A202BF5E600BFA9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF71D124202BF5E600BFA9E9 = {
+			isa = PBXGroup;
+			children = (
+				AF71D12F202BF5E600BFA9E9 /* ZYPopAnimator */,
+				AF71D12E202BF5E600BFA9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF71D12E202BF5E600BFA9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF71D12D202BF5E600BFA9E9 /* ZYPopAnimator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF71D12F202BF5E600BFA9E9 /* ZYPopAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AF71D130202BF5E600BFA9E9 /* AppDelegate.swift */,
+				AF71D142202BF71100BFA9E9 /* PopViewAnimator.swift */,
+				AF71D144202BF84600BFA9E9 /* PopPresentationController.swift */,
+				AF71D146202BFA2500BFA9E9 /* PickerController.swift */,
+				AF71D147202BFA2500BFA9E9 /* PickerController.xib */,
+				AF71D132202BF5E600BFA9E9 /* ViewController.swift */,
+				AF71D134202BF5E600BFA9E9 /* Main.storyboard */,
+				AF71D137202BF5E600BFA9E9 /* Assets.xcassets */,
+				AF71D139202BF5E600BFA9E9 /* LaunchScreen.storyboard */,
+				AF71D13C202BF5E600BFA9E9 /* Info.plist */,
+			);
+			path = ZYPopAnimator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF71D12C202BF5E600BFA9E9 /* ZYPopAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF71D13F202BF5E600BFA9E9 /* Build configuration list for PBXNativeTarget "ZYPopAnimator" */;
+			buildPhases = (
+				AF71D129202BF5E600BFA9E9 /* Sources */,
+				AF71D12A202BF5E600BFA9E9 /* Frameworks */,
+				AF71D12B202BF5E600BFA9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPopAnimator;
+			productName = ZYPopAnimator;
+			productReference = AF71D12D202BF5E600BFA9E9 /* ZYPopAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF71D125202BF5E600BFA9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nevermore;
+				TargetAttributes = {
+					AF71D12C202BF5E600BFA9E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AF71D128202BF5E600BFA9E9 /* Build configuration list for PBXProject "ZYPopAnimator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF71D124202BF5E600BFA9E9;
+			productRefGroup = AF71D12E202BF5E600BFA9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF71D12C202BF5E600BFA9E9 /* ZYPopAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF71D12B202BF5E600BFA9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF71D13B202BF5E600BFA9E9 /* LaunchScreen.storyboard in Resources */,
+				AF71D138202BF5E600BFA9E9 /* Assets.xcassets in Resources */,
+				AF71D136202BF5E600BFA9E9 /* Main.storyboard in Resources */,
+				AF71D149202BFA2500BFA9E9 /* PickerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF71D129202BF5E600BFA9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF71D148202BFA2500BFA9E9 /* PickerController.swift in Sources */,
+				AF71D133202BF5E600BFA9E9 /* ViewController.swift in Sources */,
+				AF71D145202BF84600BFA9E9 /* PopPresentationController.swift in Sources */,
+				AF71D143202BF71100BFA9E9 /* PopViewAnimator.swift in Sources */,
+				AF71D131202BF5E600BFA9E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF71D134202BF5E600BFA9E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF71D135202BF5E600BFA9E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF71D139202BF5E600BFA9E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF71D13A202BF5E600BFA9E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF71D13D202BF5E600BFA9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF71D13E202BF5E600BFA9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF71D140202BF5E600BFA9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZYPopAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nevermore.ZYPopAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF71D141202BF5E600BFA9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZYPopAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nevermore.ZYPopAnimator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF71D128202BF5E600BFA9E9 /* Build configuration list for PBXProject "ZYPopAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF71D13D202BF5E600BFA9E9 /* Debug */,
+				AF71D13E202BF5E600BFA9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF71D13F202BF5E600BFA9E9 /* Build configuration list for PBXNativeTarget "ZYPopAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF71D140202BF5E600BFA9E9 /* Debug */,
+				AF71D141202BF5E600BFA9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF71D125202BF5E600BFA9E9 /* Project object */;
+}
